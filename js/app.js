@@ -113,6 +113,9 @@ class CourseModal {
     document.getElementById('courseCredits').textContent = data.credits;
     document.getElementById('courseGrade').textContent = data.grade;
     
+    // Set instructor
+    document.getElementById('courseInstructor').textContent = data.instructor || '';
+    
     // Set link
     document.getElementById('courseLink').textContent = data.link;
     

@@ -1,13 +1,14 @@
-{
+﻿{
   "code": "COMP2012",
   "title": "Object-Oriented Programming and Data Structures",
   "credits": 4,
-  "grade": "A",
-  "link": "NA",
+  "grade": "N/A",
+  "instructor": "",
+  "link": "",
   "ratings": {
-    "content": "A",
-    "grading": "A",
-    "teaching": "A",
-    "workload": "A"
+    "content": "N/A",
+    "grading": "N/A",
+    "teaching": "N/A",
+    "workload": "N/A"
   }
 }
