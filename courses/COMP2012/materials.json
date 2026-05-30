@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Course Materials",
+    "link": "https://example.com/comp2012-materials"
+  },
+  {
+    "type": "Data Structures Visualization",
+    "link": "https://visualgo.net"
+  },
+  {
+    "type": "Practice Problems",
+    "link": "https://leetcode.com"
+  }
+]

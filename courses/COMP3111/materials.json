@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Design Patterns",
+    "link": "https://refactoring.guru/design-patterns"
+  },
+  {
+    "type": "Git Tutorial",
+    "link": "https://git-scm.com/book"
+  },
+  {
+    "type": "GitHub Actions",
+    "link": "https://github.com/features/actions"
+  }
+]

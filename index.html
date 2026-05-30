@@ -1,172 +1,418 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <style>
-    .gwd-h2-vza3 {
-      letter-spacing: 0px;
-    }
-    .gwd-hr-doap {
-      top: 106px;
-    }
-  </style>
-</head>
-
-<body class="htmlNoPages">
   <meta charset="utf-8">
-  <title>ivanwong13768's (very WIP) website</title>
-  <meta name="generator" content="Google Web Designer 16.1.0.0530">
-  <style id="gwd-text-style">
-    p {
-      margin: 0px;
-    }
-    h1 {
-      margin: 0px;
-    }
-    h2 {
-      margin: 0px;
-    }
-    h3 {
-      margin: 0px;
-    }
-  </style>
-  <style>
-    * {
-      color: rgb(255, 255, 181);
-      font-family: "Verdana", sans-serif;
-    }
-    html, body {
-      width: 100%;
-      height: 100%;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-    body {
-      background-image: url("/assets/img/bg.png");
-      transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-      transform-style: preserve-3d;
-    }
-    body * {
-      transform-style: preserve-3d;
-    }
-    hr.style_fade {
-      border: 0;
-      height: 2px;
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 181, 0.75), rgba(0, 0, 0, 0));
-    }
-    div * {
-      line-height: 150%;
-    }
-  </style>
-  
-  <h1 style="text-align: center;">ivanwong13768's website</h1>
-  <div id="home">
-    <h2 class="gwd-h2-vza3">Home</h2>
-    <hr class="style_fade"><br>
-    <p>Welcome to the website where I post random stuff here.</p><br>
-    <p>HTML and CSS are a pain to code btw</p>
-  </div><br><br>
-  <div id="info">
-    <h2>About me</h2>
-    <hr class="style_fade">
-    <ul>
-      <li>Name: Wong Cheuk Hei</li>
-      <li>HKUST Year 3 COSC+AI+ELEC student</li>
-      <li>HKUST Firebird CTF team - Core Member 2024, Former Helper</li>
-      <li>Black Bauhinia - Core Member</li>
-      <li>CPSA holder</li>
-      <li>average trash student</li>
-    </ul>
-  </div><br><br>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ivanwong13768's Website</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header & Navigation -->
+    <header>
+      <div class="header-content">
+        <div class="site-title">ivanwong13768</div>
+        <div class="header-controls">
+          <nav>
+            <button data-page="home" class="nav-btn active">Home</button>
+            <button data-page="about" class="nav-btn">About</button>
+            <button data-page="courses" class="nav-btn">Courses</button>
+            <button data-page="projects" class="nav-btn">Projects</button>
+            <button data-page="documents" class="nav-btn">Documents</button>
+            <button data-page="contact" class="nav-btn">Contact</button>
+          </nav>
+          <button id="theme-toggle-btn" class="theme-toggle">🌙</button>
+        </div>
+      </div>
+    </header>
 
-  <div id="courses">
-    <h2>Courses taken</h2>
-    <hr class="style_fade">
-    <h3>2023-24 Fall (16 credits)</h3>
-    <ul>
-      <li>CHEM1020 - General Chemistry I (3 credits)</li>
-      <li>COMP1021 - Introduction to Computer Science(3 credits)</li>
-      <li>COMP2633 - Competitive Programming in Cybersecurity I (0 credit)</li>
-      <li>HMAW1905B - Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (1 credit)</li>
-      <li>LANG1404 - Advanced Academic English for University Studies (3 credits)</li>
-      <li>MATH1013 - Calculus IB (3 credits)</li>
-      <li>PHYS1112 - General Physics I with Calculus (3 credits)</li>
-    </ul><br>
-    <h3>2023-24 Spring (21 credits)</h3>
-    <ul>
-      <li>CHEM1030 - General Chemistry II (3 credits)</li>
-      <li>COMP2011 - Programming with C++ (4 credits)</li>
-      <li>COMP2211 - Exploring Artificial Intelligence (3 credits)</li>
-      <li>COMP3633 - Competitive Programming in Cybersecurity II (2 credits)</li>
-      <li>ELEC1200 - A System View of Communications: from Signals to Packets (4 credits)</li>
-      <li>HMAW1905B - Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (2 credits)</li>
-      <li>MATH1014 - Calculus II (3 credits)</li>
-    </ul><br>
-    <h3>2023-24 Summer (3 credits)</h3>
-    <ul>
-      <li>HUMA2202 - The Modern Japanese Novel (3 credits)</li>
-    </ul><br>
-    <h3>2024-25 Fall (23 credits)</h3>
-    <ul>
-      <li>COMP2012 - Object-Oriented Programming and Data Structures (4 credits)</li>
-      <li>COMP2611 - Computer Organization (4 credits)</li>
-      <li>COMP2711 - Discrete Mathematical Tools for Computer Science (4 credits)</li>
-      <li>COMP4633 - Competitive Programming in Cybersecurity III (2 credits)</li>
-      <li>LANG2030H - Technical Communication I (3 credits)</li>
-      <li>MATH2111 - Matrix Algebra and Applications (3 credits)</li>
-      <li>PHYS1114 - General Physics II (3 credits)</li>
-    </ul><br>
-    <h3>2024-25 Winter (3 credits)</h3>
-    <ul>
-      <li>ISOM2400 - Global Information Infrastructure and Policy (3 credits)</li>
-    </ul><br>
-    <h3>2024-25 Spring (19 credits)</h3>
-    <ul>
-      <li>COMP3211 - Fundamentals of Artificial Intelligence (3 credits)</li>
-      <li>COMP3511 - Operating Systems (3 credits)</li>
-      <li>COMP3711 - Design and Analysis of Algorithms (3 credits)</li>
-      <li>ELEC1100 - Introduction to Electro-Robot Design (4 credits)</li>
-      <li>LANG1424C - Chinese Writing in Cultural Contexts (3 credits)</li>
-      <li>MATH2011 - Introduction to Multivariable Calculus (3 credits)</li>
-    </ul><br>
-    <h3>2024-25 Summer (10 credits)</h3>
-    <ul>
-      <li>COMP4635 - Practical Cloud Computing Security (3 credits)</li>
-	    <li>ELEC2600 - Probability and Random Processes in Engineering (4 credits)</li>
-      <li>HUMA1622 - Science, Technology and Society: Historical and Cultural Approaches (3 credits)</li>
-    </ul>
-    <h3>2025-26 Fall (24 credits)</h3>
-    <ul>
-      <li>COMP3031 - Principles of Programming Languages (3 credits)</li>
-      <li>COMP3111 - Honors Software Engineering (4 credits)</li>
-      <li>ELEC2100 - Signals and Systems (4 credits)</li>
-      <li>ELEC2400 - Electronic Circuits (4 credits)</li>
-      <li>ELEC3120 - Computer Communication Networks (3 credits)</li>
-      <li>HUMA2204 - Japanese Science Fiction (3 credits)</li>
-      <li>MATH2351 - Introduction to Differential Equations (3 credits)</li>
-    </ul>
-  </div><br><br>
+    <!-- Main Content -->
+    <main>
+      <!-- Home Page -->
+      <div id="home" class="page active">
+        <h1 style="text-align: center;">Welcome</h1>
+        <section class="section">
+          <h2>Home</h2>
+          <p>Welcome to the website where I post random stuff.</p>
+          <p>HTML and CSS are a pain to code btw</p>
+        </section>
+      </div>
 
-  <div id="projects">
-    <h2>Projects</h2>
-    <hr class="style_fade">
-    <ul>
-      <li>HKUST Discord Bot (WIP) - <a href="https://github.com/ivanwong13768/hkust-discord-bot" target="_blank">Github</a></li>
-      <li>TBA</li>
-    </ul>
-  </div><br><br>
+      <!-- About Page -->
+      <div id="about" class="page">
+        <section class="section">
+          <h2>About Me</h2>
+          
+          <!-- Personal Introduction -->
+          <div style="margin-bottom: 3rem;">
+            <div style="margin-bottom: 1.5rem; text-align: center;">
+              <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Profile" style="max-width: 300px; width: 100%; height: auto; border-radius: 50%; object-fit: cover; aspect-ratio: 1;">
+            </div>
+            <h3 style="text-align: center;">Wong Cheuk Hei</h3>
+          </div>
 
-  <div id="documents">
-    <h2>Documents</h2>
-    <hr class="style_fade"> TBA
-  </div><br><br>
+          <!-- Education -->
+          <div style="margin-bottom: 2.5rem;">
+            <h3>Education</h3>
+            <ul>
+              <li><strong>HKUST Year 3 COSC+AI+ELEC student</strong></li>
+            </ul>
+          </div>
 
-  <div id="contact">
-    <h2>Contact me</h2>
-    <hr class="style_fade"> <a href="https://www.youtube.com/watch?v=dCmIaBO8Vbs" target="_blank">you don't</a>
+          <!-- Involvement & Experience -->
+          <div style="margin-bottom: 2.5rem;">
+            <h3>Involvement & Experience</h3>
+            <ul>
+              <li><strong>HKUST Firebird CTF:</strong> Core Member 2024, Former Helper</li>
+              <li><strong>Black Bauhinia:</strong> Core Member</li>
+            </ul>
+          </div>
+
+          <!-- Certifications -->
+          <div style="margin-bottom: 2.5rem;">
+            <h3>Certifications</h3>
+            <ul>
+              <li><strong>CPSA holder</strong></li>
+            </ul>
+          </div>
+
+          <!-- Personal Note -->
+          <div style="margin-bottom: 2.5rem;">
+            <h3>Personal Note</h3>
+            <ul>
+              <li><strong>Self-assessment:</strong> average trash student</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Courses Page -->
+      <div id="courses" class="page">
+        <section class="section">
+          <h2>Courses Taken</h2>
+          <div style="margin-bottom: 2rem; text-align: center;">
+            <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Courses" style="max-width: 400px; width: 100%; height: auto; border-radius: 8px;">
+          </div>
+          <div class="course-semester">
+            <h3>2023-24 Fall (16 credits)</h3>
+            <ul>
+              <li>CHEM1020 - General Chemistry I (3 credits)</li>
+              <li>COMP1021 - Introduction to Computer Science (3 credits)</li>
+              <li>COMP2633 - Competitive Programming in Cybersecurity I (0 credit)</li>
+              <li>HMAW1905B - Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (1 credit)</li>
+              <li>LANG1404 - Advanced Academic English for University Studies (3 credits)</li>
+              <li>MATH1013 - Calculus IB (3 credits)</li>
+              <li>PHYS1112 - General Physics I with Calculus (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2023-24 Spring (21 credits)</h3>
+            <ul>
+              <li>CHEM1030 - General Chemistry II (3 credits)</li>
+              <li>COMP2011 - Programming with C++ (4 credits)</li>
+              <li>COMP2211 - Exploring Artificial Intelligence (3 credits)</li>
+              <li>COMP3633 - Competitive Programming in Cybersecurity II (2 credits)</li>
+              <li>ELEC1200 - A System View of Communications: from Signals to Packets (4 credits)</li>
+              <li>HMAW1905B - Behavioral Foundations of University Education: Habits, Mindsets, and Wellness (2 credits)</li>
+              <li>MATH1014 - Calculus II (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2023-24 Summer (3 credits)</h3>
+            <ul>
+              <li>HUMA2202 - The Modern Japanese Novel (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2024-25 Fall (23 credits)</h3>
+            <ul>
+              <li>COMP2012 - Object-Oriented Programming and Data Structures (4 credits)</li>
+              <li>COMP2611 - Computer Organization (4 credits)</li>
+              <li>COMP2711 - Discrete Mathematical Tools for Computer Science (4 credits)</li>
+              <li>COMP4633 - Competitive Programming in Cybersecurity III (2 credits)</li>
+              <li>LANG2030H - Technical Communication I (3 credits)</li>
+              <li>MATH2111 - Matrix Algebra and Applications (3 credits)</li>
+              <li>PHYS1114 - General Physics II (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2024-25 Winter (3 credits)</h3>
+            <ul>
+              <li>ISOM2400 - Global Information Infrastructure and Policy (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2024-25 Spring (19 credits)</h3>
+            <ul>
+              <li>COMP3211 - Fundamentals of Artificial Intelligence (3 credits)</li>
+              <li>COMP3511 - Operating Systems (3 credits)</li>
+              <li>COMP3711 - Design and Analysis of Algorithms (3 credits)</li>
+              <li>ELEC1100 - Introduction to Electro-Robot Design (4 credits)</li>
+              <li>LANG1424C - Chinese Writing in Cultural Contexts (3 credits)</li>
+              <li>MATH2011 - Introduction to Multivariable Calculus (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2024-25 Summer (10 credits)</h3>
+            <ul>
+              <li>COMP4635 - Practical Cloud Computing Security (3 credits)</li>
+              <li>ELEC2600 - Probability and Random Processes in Engineering (4 credits)</li>
+              <li>HUMA1622 - Science, Technology and Society: Historical and Cultural Approaches (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2025-26 Fall (24 credits)</h3>
+            <ul>
+              <li>COMP3031 - Principles of Programming Languages (3 credits)</li>
+              <li>COMP3111 - Honors Software Engineering (4 credits)</li>
+              <li>ELEC2100 - Signals and Systems (4 credits)</li>
+              <li>ELEC2400 - Electronic Circuits (4 credits)</li>
+              <li>ELEC3120 - Computer Communication Networks (3 credits)</li>
+              <li>HUMA2204 - Japanese Science Fiction (3 credits)</li>
+              <li>MATH2351 - Introduction to Differential Equations (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2025-26 Spring (23 credits)</h3>
+            <ul>
+              <li>COMP4121 - Modern Compiler Construction (3 credits)</li>
+              <li>COMP4211 - Machine Learning (3 credits)</li>
+              <li>ELEC3100 - Signal Processing and Communications (4 credits)</li>
+              <li>ELEC3130 - Digital Image Processing (3 credits)</li>
+              <li>ELEC3600 - Electromagnetics: From Wireless to Photonic Applications (4 credits)</li>
+              <li>HUMA2331 - Japanese Animation: Technology, Gender, and History (3 credits)</li>
+              <li>ISOM4200 - Information and Cyber Security Management (3 credits)</li>
+            </ul>
+          </div>
+
+          <div class="course-semester">
+            <h3>2025-26 Summer (3 credits)</h3>
+            <ul>
+              <li>PHYS1002 - Introduction to Astrophysics and Astronomy (3 credits)</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- Projects Page -->
+      <div id="projects" class="page">
+        <section class="section">
+          <h2>Projects</h2>
+          <div class="item-grid">
+            <div class="item-card">
+              <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="HKUST Discord Bot" class="card-image">
+              <h3>HKUST Discord Bot (WIP)</h3>
+              <p>An interactive Discord bot for HKUST community engagement and utilities.</p>
+              <p><a href="https://github.com/ivanwong13768/hkust-discord-bot" target="_blank">View on GitHub →</a></p>
+            </div>
+            <div class="item-card">
+              <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Coming Soon" class="card-image">
+              <h3>More Coming Soon</h3>
+              <p>Stay tuned for more exciting projects!</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Documents Page -->
+      <div id="documents" class="page">
+        <section class="section">
+          <h2>Documents</h2>
+          <div class="documents-container">
+            <div class="document-box">
+              <div class="document-content">
+                <h3>Course Reviews</h3>
+                <p>Comprehensive reviews of courses I've taken, including grading, teaching quality, and workload assessments. Click on any course title on the Courses page to view the full review.</p>
+              </div>
+              <div class="document-image">
+                <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Course Reviews">
+              </div>
+            </div>
+
+            <div class="document-box">
+              <div class="document-content">
+                <h3>Project Portfolio</h3>
+                <p>Detailed documentation of my software projects, including technical architecture, implementation details, and lessons learned from real-world development.</p>
+              </div>
+              <div class="document-image">
+                <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Project Portfolio">
+              </div>
+            </div>
+
+            <div class="document-box">
+              <div class="document-content">
+                <h3>Research Papers</h3>
+                <p>Academic papers and research summaries on topics related to computer science, machine learning, and software engineering innovation.</p>
+              </div>
+              <div class="document-image">
+                <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Research Papers">
+              </div>
+            </div>
+
+            <div class="document-box">
+              <div class="document-content">
+                <h3>Technical Articles</h3>
+                <p>Blog posts and technical articles covering programming tips, best practices, and solutions to common development challenges.</p>
+              </div>
+              <div class="document-image">
+                <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Technical Articles">
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Contact Page -->
+      <div id="contact" class="page">
+        <section class="section">
+          <h2>Contact Me</h2>
+          <div class="contact-container">
+            <div class="contact-box">
+              <div class="contact-item">
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/ivanwong13768" target="_blank" class="contact-link">github.com/ivanwong13768</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/ivanwong13768" target="_blank" class="contact-link">linkedin.com/in/ivanwong13768</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Email Address</span>
+                <a href="mailto:contact@example.com" class="contact-link">contact@example.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Curriculum Vitae</span>
+                <a href="#" class="contact-link">Download CV (PDF)</a>
+              </div>
+              <div class="contact-divider"></div>
+              <div class="contact-item contact-item-centered" style="margin-top: 1.5rem;">
+                <a href="https://www.youtube.com/watch?v=dCmIaBO8Vbs" target="_blank" class="contact-link-primary">Find me in person!</a>
+              </div>
+            </div>
+            <div class="contact-image">
+              <img src="https://goodsrepublic.com/media/binary/009/994/752/9994752.jpg.webp" alt="Contact">
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Ivan Wong. All rights reserved.</p>
+      <p>Made with Claude Haiku 4.5</p>
+    </footer>
   </div>
-</body>
 
+  <!-- Course Review Modal -->
+  <div id="courseModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      
+      <div class="modal-header">
+        <div id="courseTitle"></div>
+      </div>
+
+      <!-- Course Info Boxes -->
+      <div class="course-info-grid">
+        <div class="info-box">
+          <label>Course Code</label>
+          <div id="courseCode" class="info-value"></div>
+        </div>
+        <div class="info-box">
+          <label>Course Title</label>
+          <div id="courseFullTitle" class="info-value"></div>
+        </div>
+        <div class="info-box">
+          <label>Credits</label>
+          <div id="courseCredits" class="info-value"></div>
+        </div>
+        <div class="info-box">
+          <label>Grade</label>
+          <div id="courseGrade" class="info-value"></div>
+        </div>
+      </div>
+
+      <!-- Link Box -->
+      <div class="link-section">
+        <label>Link to UST Space Review</label>
+        <div id="courseLink" class="link-box"></div>
+      </div>
+
+      <!-- Ratings Section -->
+      <div class="ratings-section">
+        <div class="rating-item">
+          <label>Content</label>
+          <div id="ratingContent" class="rating-badge"></div>
+        </div>
+        <div class="rating-item">
+          <label>Grading</label>
+          <div id="ratingGrading" class="rating-badge"></div>
+        </div>
+        <div class="rating-item">
+          <label>Teaching</label>
+          <div id="ratingTeaching" class="rating-badge"></div>
+        </div>
+        <div class="rating-item">
+          <label>Workload</label>
+          <div id="ratingWorkload" class="rating-badge"></div>
+        </div>
+      </div>
+
+      <!-- Personal Review Section -->
+      <div class="review-section">
+        <h3>Personal Review</h3>
+        <div class="review-grid">
+          <div class="review-box">
+            <label>Content</label>
+            <div id="reviewContent" class="review-text"></div>
+          </div>
+          <div class="review-box">
+            <label>Grading</label>
+            <div id="reviewGrading" class="review-text"></div>
+          </div>
+          <div class="review-box">
+            <label>Teaching</label>
+            <div id="reviewTeaching" class="review-text"></div>
+          </div>
+          <div class="review-box">
+            <label>Workload</label>
+            <div id="reviewWorkload" class="review-text"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recommendations Section -->
+      <div class="recommendations-section">
+        <h3>Recommendations</h3>
+        <div id="recommendationsText" class="recommendations-text"></div>
+      </div>
+
+      <!-- Studying Materials Section -->
+      <div class="materials-section">
+        <h3>Studying Materials</h3>
+        <table id="materialsTable" class="materials-table">
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody id="materialsBody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
 </html>

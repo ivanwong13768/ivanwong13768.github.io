@@ -1,0 +1,14 @@
+[
+  {
+    "type": "Lecture Notes",
+    "link": "https://example.com/comp2011-notes"
+  },
+  {
+    "type": "Practice Problems",
+    "link": "https://example.com/comp2011-problems"
+  },
+  {
+    "type": "Reference",
+    "link": "https://cppreference.com"
+  }
+]
